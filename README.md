@@ -19,9 +19,20 @@ Or install it yourself as:
     $ gem install coprght
 
 ## Usage
+
+In your `app/helpers/application_helper.rb` file create a method:
+
 ```ruby
-Coprght::Renderer.copyright 'Harun Gunes', 'All rights reserved'
+def copyright_generator
+	Coprght::Renderer.copyright '[YOUR NAME]', '[YOUR MESSAGE (All rights reserved)]'
+end
 ```
+
+And then at the bottom of your `app/views/layouts/application.html.erb` file include:
+
+
+`<p><%= copyright_generator %></p>`
+
 
 ## Development
 
