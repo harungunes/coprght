@@ -19,8 +19,9 @@ Or install it yourself as:
     $ gem install coprght
 
 ## Usage
-
-TODO: Write usage instructions here
+```ruby
+Coprght::Renderer.copyright 'Harun Gunes', 'All rights reserved'
+```
 
 ## Development
 
@@ -30,7 +31,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/coprght. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/harungunes/coprght. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
