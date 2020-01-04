@@ -1,6 +1,6 @@
 require "coprght/version"
+require "coprght/renderer"
 
 module Coprght
-  class Error < StandardError; end
-  # Your code goes here...
+  
 end
