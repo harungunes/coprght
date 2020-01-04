@@ -24,7 +24,7 @@ In your `app/helpers/application_helper.rb` file create a method:
 
 ```ruby
 def copyright_generator
-	Coprght::Renderer.copyright '[YOUR NAME]', '[YOUR MESSAGE (All rights reserved)]'
+  Coprght::Renderer.copyright '[YOUR NAME]', '[YOUR MESSAGE for example: All rights reserved]'
 end
 ```
 
